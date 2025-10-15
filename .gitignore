@@ -1,0 +1,20 @@
+# Ignore all child MCP server directories (they are their own repos)
+Layered-Memory/
+autogen-unified-mcp/
+claude-telemetry-mcp/
+conversation-search-mcp/
+file-converter-mcp/
+imthemap-mcp-server/
+metaMCP-RAG/
+metamcp-rag-server/
+namecheap-mcp-server/
+styxy-mcp-server/
+token-analyzer-mcp/
+topolop-mcp-server/
+unity-mcp-server/
+webby/
+archive/
+
+# Allow README and documentation
+!README.md
+!*.md
