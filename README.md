@@ -27,7 +27,7 @@ Located in `servers/your-servers/`:
 - **imthemap** - Code dependency visualization
 - **layered-memory** - Semantic memory and knowledge graphs
 - **metaMCP-RAG** - RAG-powered MCP tool discovery
-- **metamcp-rag-server** - Meta MCP server with RAG
+- **MMR-analytics-server** - Meta MCP server with RAG
 - **namecheap** - Namecheap domain management
 - **styxy** - Port allocation and service management
 - **token-analyzer** - Token usage analysis
@@ -54,7 +54,7 @@ Each MCP server is also available as a standalone repository:
 - [imthemap-mcp-server](https://github.com/cordlesssteve/imthemap-mcp-server)
 - [layered-memory-mcp](https://github.com/cordlesssteve/layered-memory-mcp)
 - [metaMCP-RAG](https://github.com/cordlesssteve/metaMCP-RAG)
-- [metamcp-rag-server](https://github.com/cordlesssteve/metamcp-rag-server)
+- [MMR-analytics-server](https://github.com/cordlesssteve/MMR-analytics-server)
 - [namecheap-mcp-server](https://github.com/cordlesssteve/namecheap-mcp-server)
 - [styxy-mcp-server](https://github.com/cordlesssteve/styxy-mcp-server)
 - [token-analyzer-mcp](https://github.com/cordlesssteve/token-analyzer-mcp)
