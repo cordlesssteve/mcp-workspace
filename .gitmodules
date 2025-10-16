@@ -10,9 +10,9 @@
 [submodule "servers/your-servers/metaMCP-RAG"]
 	path = servers/your-servers/metaMCP-RAG
 	url = https://github.com/cordlesssteve/metaMCP-RAG.git
-[submodule "servers/your-servers/metamcp-rag-server"]
-	path = servers/your-servers/metamcp-rag-server
-	url = https://github.com/cordlesssteve/metamcp-rag-server.git
+[submodule "servers/your-servers/MMR-analytics-server"]
+	path = servers/your-servers/MMR-analytics-server
+	url = https://github.com/cordlesssteve/MMR-analytics-server.git
 [submodule "servers/your-servers/layered-memory"]
 	path = servers/your-servers/layered-memory
 	url = https://github.com/cordlesssteve/layered-memory-mcp.git
