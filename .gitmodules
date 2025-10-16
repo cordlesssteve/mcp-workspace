@@ -1,0 +1,42 @@
+[submodule "servers/your-servers/claude-telemetry"]
+	path = servers/your-servers/claude-telemetry
+	url = https://github.com/cordlesssteve/claude-telemetry-mcp.git
+[submodule "servers/your-servers/conversation-search"]
+	path = servers/your-servers/conversation-search
+	url = https://github.com/cordlesssteve/conversation-search-mcp.git
+[submodule "servers/your-servers/file-converter"]
+	path = servers/your-servers/file-converter
+	url = https://github.com/cordlesssteve/file-converter-mcp.git
+[submodule "servers/your-servers/metaMCP-RAG"]
+	path = servers/your-servers/metaMCP-RAG
+	url = https://github.com/cordlesssteve/metaMCP-RAG.git
+[submodule "servers/your-servers/metamcp-rag-server"]
+	path = servers/your-servers/metamcp-rag-server
+	url = https://github.com/cordlesssteve/metamcp-rag-server.git
+[submodule "servers/your-servers/layered-memory"]
+	path = servers/your-servers/layered-memory
+	url = https://github.com/cordlesssteve/layered-memory-mcp.git
+[submodule "servers/your-servers/autogen-unified"]
+	path = servers/your-servers/autogen-unified
+	url = git@github.com:cordlesssteve/autogen-unified-mcp.git
+[submodule "servers/your-servers/imthemap"]
+	path = servers/your-servers/imthemap
+	url = git@github.com:cordlesssteve/imthemap-mcp-server.git
+[submodule "servers/your-servers/namecheap"]
+	path = servers/your-servers/namecheap
+	url = git@github.com:cordlesssteve/namecheap-mcp-server.git
+[submodule "servers/your-servers/styxy"]
+	path = servers/your-servers/styxy
+	url = https://github.com/cordlesssteve/styxy-mcp-server.git
+[submodule "servers/your-servers/token-analyzer"]
+	path = servers/your-servers/token-analyzer
+	url = https://github.com/cordlesssteve/token-analyzer-mcp.git
+[submodule "servers/your-servers/topolop"]
+	path = servers/your-servers/topolop
+	url = https://github.com/cordlesssteve/topolop-mcp-server.git
+[submodule "servers/your-servers/unity"]
+	path = servers/your-servers/unity
+	url = https://github.com/cordlesssteve/unity-mcp-server.git
+[submodule "servers/your-servers/webby"]
+	path = servers/your-servers/webby
+	url = git@github.com:cordlesssteve/webby-mcp.git
