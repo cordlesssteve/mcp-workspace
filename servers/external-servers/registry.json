@@ -1,0 +1,145 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2025-10-16T00:00:00Z",
+  "description": "External MCP Servers Registry - Tracking all external servers integrated into mcp-workspace",
+  "totalServers": 7,
+  "totalTools": 124,
+  "servers": [
+    {
+      "id": "filesystem",
+      "name": "Filesystem Operations",
+      "type": "remote-only",
+      "repository": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+      "developer": "Anthropic",
+      "status": "active",
+      "tools": 14,
+      "description": "Provides filesystem operations (read, write, list, search)",
+      "integration": "metaMCP-RAG orchestrator",
+      "lastVerified": "2025-10-01",
+      "notes": "Core Anthropic MCP server"
+    },
+    {
+      "id": "git",
+      "name": "Git Operations",
+      "type": "remote-only",
+      "repository": "https://github.com/modelcontextprotocol/servers/tree/main/src/git",
+      "developer": "Anthropic",
+      "status": "active",
+      "tools": 13,
+      "description": "Git repository operations (status, diff, commit, branch, log, etc.)",
+      "integration": "metaMCP-RAG orchestrator",
+      "language": "Python",
+      "buildTool": "UV",
+      "lastVerified": "2025-10-02",
+      "notes": "Python-based MCP server with UV environment management"
+    },
+    {
+      "id": "firebase",
+      "name": "Firebase",
+      "type": "remote-only",
+      "repository": "https://github.com/modelcontextprotocol/servers/tree/main/src/firebase",
+      "developer": "Anthropic",
+      "status": "active",
+      "tools": 55,
+      "description": "Firebase integration and deployment management",
+      "integration": "metaMCP-RAG orchestrator",
+      "wrapper": "NPX (firebase-tools)",
+      "lastVerified": "2025-10-01",
+      "notes": "Largest external server by tool count (55 tools)"
+    },
+    {
+      "id": "netlify",
+      "name": "Netlify",
+      "type": "remote-only",
+      "repository": "https://github.com/modelcontextprotocol/servers/tree/main/src/netlify",
+      "developer": "Anthropic",
+      "status": "active",
+      "tools": 6,
+      "description": "Netlify deployment and site management",
+      "integration": "metaMCP-RAG orchestrator",
+      "lastVerified": "2025-10-01",
+      "notes": "Core Anthropic MCP server"
+    },
+    {
+      "id": "playwright",
+      "name": "Playwright Browser Automation",
+      "type": "npm-based",
+      "package": "@executeautomation/playwright-mcp-server",
+      "repository": "https://github.com/executeautomation/playwright-mcp-server",
+      "developer": "Execute Automation",
+      "status": "active",
+      "tools": 32,
+      "description": "Browser automation, testing, and web scraping",
+      "installation": "npx -y @executeautomation/playwright-mcp-server",
+      "integration": "metaMCP-RAG orchestrator",
+      "language": "Node.js",
+      "lastVerified": "2025-10-02",
+      "notes": "Third-party NPM server, successfully integrated and debugged"
+    },
+    {
+      "id": "storybook",
+      "name": "Storybook Component Library",
+      "type": "npm-based",
+      "package": "storybook-mcp",
+      "repository": "https://github.com/storybook-mcp/storybook-mcp",
+      "developer": "Storybook Team",
+      "status": "active",
+      "tools": 2,
+      "description": "Access and manage Storybook component libraries",
+      "installation": "npm install -g storybook-mcp",
+      "integration": "metaMCP-RAG orchestrator",
+      "environment": {
+        "STORYBOOK_URL": "http://localhost:6006/index.json"
+      },
+      "language": "Node.js",
+      "lastVerified": "2025-10-02",
+      "notes": "Requires STORYBOOK_URL environment variable to be set"
+    },
+    {
+      "id": "context7",
+      "name": "Upstash Context7",
+      "type": "npm-based",
+      "package": "@upstash/context7-mcp",
+      "repository": "https://github.com/upstash/context7-mcp",
+      "developer": "Upstash",
+      "status": "active",
+      "tools": 2,
+      "description": "Upstash context and database management",
+      "installation": "npx @upstash/context7-mcp",
+      "integration": "metaMCP-RAG orchestrator",
+      "language": "Node.js",
+      "lastVerified": "2025-10-02",
+      "notes": "Third-party NPM server for Upstash services"
+    }
+  ],
+  "statistics": {
+    "byType": {
+      "remote-only": {
+        "count": 4,
+        "tools": 88,
+        "averageToolsPerServer": 22
+      },
+      "npm-based": {
+        "count": 3,
+        "tools": 36,
+        "averageToolsPerServer": 12
+      }
+    },
+    "byDeveloper": {
+      "Anthropic": {
+        "count": 4,
+        "tools": 88
+      },
+      "Third-party": {
+        "count": 3,
+        "tools": 36
+      }
+    }
+  },
+  "orchestrator": {
+    "location": "~/projects/Utility/DEV-TOOLS/mcp-workspace/servers/your-servers/metaMCP-RAG",
+    "ragDatabase": "ChromaDB",
+    "totalIndexedTools": 253,
+    "externalToolsIndexed": 124
+  }
+}
